@@ -1,3 +1,7 @@
+li {
+  list-style: none;
+}
+
 h1 {
   text-align: center;
 }
@@ -5,11 +9,13 @@ h1 {
 .sheet {
   margin: 0 auto;
   font-size: 40px;
+  height: 435px;
 }
 
 .sheet tr td {
   border: 1px solid #e0e0e0;
   padding: 10px;
+  text-align: center;
 }
 
 .generate-btn {
@@ -36,4 +42,20 @@ h1 {
   transform: translateY(3px);
   text-decoration: none;
   box-shadow: 0 2px 0 #aaaaaa;
+}
+
+/********** number style ************/
+
+.number {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.past-number {
+  font-size: 38px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
 }
